@@ -10,7 +10,7 @@ public class MainMarketing {
         Marketing marketing1 = new Marketing("Kelebet","Chair", 150);
         Marketing marketing2 = new Marketing("Yared","Bar Stool", 90);
         Marketing marketing3 = new Marketing("Ruth", "Bed", 600);
-        Marketing marketing4 = new Marketing("Joe", "Sofa", 1200);
+        Marketing marketing4 = new Marketing("Emuye", "Sofa", 1200);
         Marketing marketing5 = new Marketing("Meklit", "Coffee Table", 200);
         // adding objects to the Marketing
         marketing.add(marketing1);
