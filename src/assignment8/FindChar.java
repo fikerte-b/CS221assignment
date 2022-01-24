@@ -14,6 +14,7 @@ public class FindChar {
 //            return find(str.substring(1), c);
 //    }
 
+
     public static boolean doesContains(String str, char c){
         String s = str.toUpperCase();
         char cc = Character.toUpperCase(c);
