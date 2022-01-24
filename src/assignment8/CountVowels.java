@@ -4,9 +4,9 @@ public class CountVowels {
 
     private static int countVowel(String str) {
         String s = str.toUpperCase();
-        if (str.length() == 0 ) {
+        if (s.length() == 0 ) {
             return 0;
-        } else if (str.charAt(0) == 'A' ||
+        } else if (s.charAt(0) == 'A' ||
         s.charAt(0) == 'E' ||
         s.charAt(0) == 'I' ||
         s.charAt(0) == 'O'||
@@ -18,8 +18,8 @@ public class CountVowels {
     }
 
     public static void main(String[] args) {
-        System.out.println(countVowel("DataStructure"));
-        System.out.println(countVowel("ILoveJava"));
+        System.out.println("The total number of vowels in the string is: " + countVowel("DataStructure"));
+        System.out.println("The total number of vowels in the string is: " + countVowel("ILoveJava"));
 
     }
 }
